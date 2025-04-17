@@ -1,0 +1,40 @@
+# Go build and cache
+/bin/
+/pkg/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+*.test
+*.out
+
+# GoLand / VSCode / IDEs
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+
+# Dependency directories (if using vendoring)
+vendor/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+
+# Proto-generated files (optional if you want to generate them every time)
+*.pb.go
+*_grpc.pb.go
+
+# Docker-related
+*.pid
+docker-compose.override.yml
+
+# Coverage and test output
+coverage.out
+*.cov
